@@ -1,7 +1,7 @@
 # distance-to-edge
 
 Custom Python code used to quantify the distance between different Golgi-localized proteins. 
-The input data for which this script was build consists on a .xlsx file that contains the line profile data of two-color images, obtained with ImageJ. 
+The input data for which this script was built consists on a .xlsx file that contains the line profile data of two-color images, obtained with ImageJ. 
 For a proper run of the programme, the columns have to be distributed as: 
 
 MAX-TO-EDGE
