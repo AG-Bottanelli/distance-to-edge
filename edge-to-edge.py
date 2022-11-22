@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 	 
-arf1gm130 = pd.read_excel (r'C:/Users/AG Bottanelli/Nextcloud2/Wong et al., 2021/ARF Paper 2021/Quantification/COPI - ARFs/Line Porfiles TOP View ARF1+COPI.xlsx')
+A = pd.read_excel (r'Absolute_Pathway')
 '''
 	Odd columns - intensity values 
     - I Ch1 (ARF): 4n+1 starting in 0 
@@ -59,5 +59,5 @@ def plot_lineprofiles_grad(df):
         plt.legend(loc="lower left", prop={'size': 7.5})
         plt.show()
  
-Darf1gm130 = distance_edge_to_edge(arf1gm130)
-plot_lineprofiles_grad(arf1gm130)
+Darf1gm130 = distance_edge_to_edge(A)
+plot_lineprofiles_grad(A)
