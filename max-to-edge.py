@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-arf1 = pd.read_excel (r'Absolute Pathway')
+A = pd.read_excel (r'Absolute Pathway')
 #INTRODUCE THE .xlsx files paths with the line profile information between the ‘’
 #THE ORDER OF COLUMNS SHOULD BE DISTANCE CHANNEL ARF-INTENSITY CHANNEL ARF - D vesicle - I vesicle - again... 
  
@@ -61,5 +61,5 @@ def plot_lineprofiles(df):
         
         
         
-Darf1 = distance_edge_to_max(arf1)
-plot_lineprofiles(arf1)
+Darf1 = distance_edge_to_max(A)
+plot_lineprofiles(A)
