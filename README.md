@@ -24,3 +24,12 @@ DISTANCE CHANNEL ARF-INTENSITY CHANNEL ARF - DISTANCES CHANNEL marker - INTENSIT
 For more than one box profile processed, add them consecutively in the next column.
 
 
+MAX-TO-MAX
+
+In consecutive columns: 
+
+DISTANCE CHANNEL 1-INTENSITY CHANNEL 1 - DISTANCES CHANNEL 2 - INTENSITY CHANNEL 2 - AGAIN 
+
+
+
+For more than one box profile processed, add them consecutively in the next column.
